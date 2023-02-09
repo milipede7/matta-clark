@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  src: url(fonts/uni.ttf);
-  font-family: uni;
+  src: url(king.ttf);
+  font-family: king;
 }
 
 body {
@@ -56,7 +56,8 @@ a:active {
 }
 
 #title {
-  font-family: uni;
+  /* font-weight: bold; */
+  font-family: courier;
   font-size: 50px;
   display: block;
   margin-left: auto;
@@ -80,13 +81,17 @@ a:active {
 }
 
 #phonesubtitle {
-
+  -webkit-box-shadow: 0px 0px 40px 27px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 40px 27px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 40px 27px rgba(255,255,255,0.8);
   font-family: uni;
+  font-style: bold;
   font-size: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 6%;
+  margin-top: 20%;
+  margin-bottom: 20%;
   background-color: rgba(255, 255, 255, 70%);
   /* width: 50%; */
 }
@@ -101,7 +106,7 @@ a:active {
   text-align: center;
   /* color: lightblue; */
   background-color: grey;
-  border-style: solid;
+  border-style: dashed;
   padding: .5em;
   font-size: 40px;
   /* border-radius: 100%; */
@@ -187,6 +192,7 @@ a:active {
 
 #phonenames{
   margin-left:5%;
+  margin-right: 5%;
   color: white;
   font-family: uni;
   font-size: 40px;
